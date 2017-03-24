@@ -28,14 +28,13 @@ $(document).ready(function() {
       $(".notsure").show();
     }
 
+    });
   });
-});
 
-  $("#formTwo").submit(function(event) {
+  $("#form2").submit(function(event) {
   event.preventDefault();
     var nameInput = $("input#name").val();
 
-  $(".name").text(nameInput);
-
-
+    $(".name").text(nameInput);
+    
 });

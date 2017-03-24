@@ -19,3 +19,11 @@ body {
 .well {
 
 }
+
+#center {
+  align: left;
+}
+
+#well-img {
+  width: 50%;
+}
