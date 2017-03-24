@@ -7,6 +7,7 @@ $(document).ready(function() {
     var quest3 = $("#q3").val().toLowerCase();
     var quest4 = $("#q4").val().toLowerCase();
     var quest5 = $("#q5").val().toLowerCase();
+    var nameInput = $("input#name").val();
 
     if (quest1 === "yes" && quest2 === "no" && quest3 === "no" && quest4 === "no" && quest5 === "no") {
       $(".php, .java, .css, .csharp, .notsure").hide();
@@ -27,14 +28,15 @@ $(document).ready(function() {
       $(".php, .java, .css, .csharp, .ruby").hide();
       $(".notsure").fadeIn();
     }
+      $(".name").text(nameInput);
 
     });
   });
 
-  $("#form2").submit(function(event) {
-  event.preventDefault();
-    var nameInput = $("input#name").val();
-
-    $(".name").text(nameInput);
-
-});
+//   $("#form2").submit(function(event) {
+//   event.preventDefault();
+//     var nameInput = $("input#name").val();
+//
+//     $(".name").text(nameInput);
+//
+// });
