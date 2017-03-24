@@ -2,6 +2,11 @@ body {
   background-image: url("../img/wood_pattern.png");
 }
 
+h4 {
+  font-family: "Eagle Lake";
+  text-align: center;
+}
+
 .ruby, .php, .java, .css, .csharp, .notsure {
   display: none;
 }
@@ -10,6 +15,7 @@ body {
   background-color: #a1cea1;
   font-family:  "Gruppo";
   background-image: url("../img/upfeathers.png");
+  text-align: center;
 
 }
 
@@ -17,13 +23,8 @@ body {
   font-family:  "Italiana";
 }
 
-
 .well {
   background-image: url("../img/tree_bark.png")
-}
-
-#muted {
-  width: 1%;
 }
 
 #center {
@@ -32,5 +33,5 @@ body {
 }
 
 #well-img {
-  width: 40%;
+  width: 45%;
 }
