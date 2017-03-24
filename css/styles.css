@@ -20,6 +20,19 @@ body {
   background-image: url("../img/tree_bark.png")
 }
 
+/*.button {
+  float: center;
+}*/
+
+#muted {
+  width: 1%;
+}
+
+#center {
+  display: block;
+  text-align: center;
+}
+
 #well-img {
   width: 40%;
 }
