@@ -13,61 +13,90 @@
   <body>
     <div class=container>
     <div class=jumbotron>
-      <h1>Track Suggester Questionaire!</h1>
+      <h1><strong>Track Suggester Questionaire!</strong></h1>
     </div>
       <form>
+
+        <div class="col-sm-4">
+
         <div class="form-group">
-          <label for="usr">Question 1:  Do you value simplicity and ease-of-use?</label>
+          <label for="usr"><u>Question 1:  Do you value simplicity and ease-of-use?</u></label>
           <input type="string" class="form-control" id="q1">
         </div>
         <div class="form-group">
-          <label for="usr">Question 2:  Are you detail oriented?</label>
+          <label for="usr"><u>Question 2:  Are you detail oriented?</u></label>
           <input type="string" class="form-control" id="q2">
         </div>
+
+        </div>
+
+        <div class="col-sm-4">
+
         <div class="form-group">
-          <label for="usr">Question 3:  Are you interested in how a website functions?</label>
+          <label for="usr"><u>Question 3:  Are you interested in how a website functions?</u></label>
           <input type="string" class="form-control" id="q3">
         </div>
         <div class="form-group">
-          <label for="usr">Question 4:  Are you interested in creating pleasant webpage layouts?</label>
+          <label for="usr"><u>Question 4:  Are you interested in design?</u></label>
           <input type="string" class="form-control" id="q4">
         </div>
+
+        </div>
+
+        <div class="col-sm-4">
+
         <div class="form-group">
-          <label for="usr">Question 5:  Do you enjoy working for large companies?</label>
+          <label for="usr"><u>Question 5:  Do you enjoy working for large companies?</u></label>
           <input type="string" class="form-control" id="q5">
         </div>
+        <div class="form-group">
+          <label for="usr"><u>Question 6:  Are you not sure what track is right for you?</u></label>
+          <input type="string" class="form-control" id="q5">
+        </div>
+
+        </div>
+
+
+        <div class="form-group" id="formTwo">
+          <label for="usr"><u>What is your name?</u></label>
+          <input id="name" class="form-control" type="text">
+        </div>
+
 
         <input class="btn btn-primary" type="submit" value="Submit">
       </form>
 
-      <div class="ruby">
+
+      <div class="ruby well">
         <h1>Ruby on Rails Track</h1>
-        <a href="https://www.epicodus.com/ruby/">Check it out!</a>
+        <a href="https://www.epicodus.com/ruby/"><span class="name"></span>, Check it out!</a>
       </div>
 
-      <div class="php">
+
+      <div class="php well">
         <h1>PHP/Drupal Track</h1>
         <a href="https://www.epicodus.com/php/">Check it out!</a>
       </div>
 
-      <div class="java">
+      <div class="java well">
         <h1>Java/Android Track</h1>
         <a href="https://www.epicodus.com/java/">Check it out!</a>
       </div>
 
-      <div class="css">
+      <div class="css well">
         <h1>CSS/Design Track</h1>
         <a href="https://www.epicodus.com/design/">Check it out!</a>
       </div>
 
-      <div class="csharp">
+      <div class="csharp well">
         <h1>C#/.NET Track</h1>
         <a href="https://www.epicodus.com/c-sharp">Check it out!</a>
       </div>
 
-      <div class="notsure">
+      <div class="notsure well">
         <h1>Not sure?  Doesn't matter!</h1>
         <a href="https://www.epicodus.com/blog/what-programming-language-should-i-learn">You don't need to know exactly what language to learn.  Pick one and get started!</a>
+
       </div>
     </div>
   </body>
