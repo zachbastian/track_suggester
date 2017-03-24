@@ -1,3 +1,7 @@
+body {
+  background-image: url("../img/wood_pattern.png");
+}
+
 .ruby, .php, .java, .css, .csharp, .notsure {
   display: none;
 }
@@ -12,17 +16,11 @@
 .form-group {
   font-family:  "Italiana";
 }
-body {
-  background-image: url("../img/wood_pattern.png");
-}
+
 
 .well {
   background-image: url("../img/tree_bark.png")
 }
-
-/*.button {
-  float: center;
-}*/
 
 #muted {
   width: 1%;
