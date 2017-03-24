@@ -10,22 +10,22 @@ $(document).ready(function() {
 
     if (quest1 === "yes" && quest2 === "no" && quest3 === "no" && quest4 === "no" && quest5 === "no") {
       $(".php, .java, .css, .csharp, .notsure").hide();
-      $(".ruby").show();
+      $(".ruby").fadeIn();
     } else if (quest1 === "no" && quest2 === "yes" && quest3 === "no" && quest4 === "no" && quest5 === "no") {
       $(".ruby, .java, .css, .csharp, .notsure").hide();
-      $(".php").show();
+      $(".php").fadeIn();
     } else if (quest1 === "no" && quest2 === "no" && quest3 === "yes" && quest4 === "no" && quest5 === "no") {
       $(".php, .ruby, .css, .csharp, .notsure").hide();
-      $(".java").show();
+      $(".java").fadeIn();
     } else if (quest1 === "no" && quest2 === "no" && quest3 === "no" && quest4 === "yes" && quest5 === "no") {
       $(".php, .java, .ruby, .csharp, .notsure").hide();
-      $(".css").show();
+      $(".css").fadeIn();
     } else if (quest1 === "no" && quest2 === "no" && quest3 === "no" && quest4 === "no" && quest5 === "yes") {
       $(".php, .java, .css, .ruby, .notsure").hide();
-      $(".csharp").show();
+      $(".csharp").fadeIn();
     } else {
       $(".php, .java, .css, .csharp, .ruby").hide();
-      $(".notsure").show();
+      $(".notsure").fadeIn();
     }
 
     });
@@ -36,5 +36,5 @@ $(document).ready(function() {
     var nameInput = $("input#name").val();
 
     $(".name").text(nameInput);
-    
+
 });
